@@ -1,8 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     border: 4px solid black;
-    border-radius: 5px;
-    width:60%;
-    height: ;
-    margin: 0 auto;
+    border-radius: 0.5rem;
+    width:30%;
+    margin: 5rem auto;
     text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.btn-increment {
+    background: green;
+    color: white;
+}
+
+.btn-decrement {
+    background: red;
+    color: white;
+}
+
+.btn-reset {
+    background: blue;
+    color: white;
 }
