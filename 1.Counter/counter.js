@@ -1,5 +1,5 @@
 let counter = document.getElementById('counter')
-counter.innerHTML = 5
+counter.innerHTML = 0
 
 let btnInc = document.getElementById('incr')
 btnInc.addEventListener('click', () => counter.innerHTML = Number(counter.innerHTML) + 1)
