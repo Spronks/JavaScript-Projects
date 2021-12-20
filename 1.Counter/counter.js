@@ -1,11 +1,12 @@
-let counter = document.getElementById('counter')
-counter.innerHTML = 0
+function increment() {
+    let counter = Number(document.getElementById('counter').innerHTML)
+    document.getElementById('counter').innerHTML = counter + 1
+}
+function decrement() {
+    let counter = Number(document.getElementById('counter').innerHTML)
+    document.getElementById('counter').innerHTML = counter - 1
+}
 
-let btnInc = document.getElementById('incr')
-btnInc.addEventListener('click', () => counter.innerHTML = Number(counter.innerHTML) + 1)
-
-let btnDec = document.getElementById('decr')
-btnDec.addEventListener('click', () => counter.innerHTML = Number(counter.innerHTML) - 1)
-
-let btnRes = document.getElementById('reset')
-btnRes.addEventListener('click', () => counter.innerHTML = 0)
+function reset() {
+    document.getElementById('counter').innerHTML = 0
+}
