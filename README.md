@@ -5,3 +5,6 @@
 
 # Day 1 - Counter
 I made a simple counter, with 3 buttons to increment, decrement and reset to 0. 
+
+# Day 2 - Calculator
+I made a simple calculator.
