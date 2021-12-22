@@ -34,7 +34,7 @@ function checkUsername(username) {
 
  function checkPassword(password) {
     if (password.length < 8 || !/[a-z]/.test(password) || !/[A-Z]/.test(password) || !/[@!#$%^&*()_=+{}[\]\:"\<\>\.,-]/.test(password) || !/[\d]/.test(password) ) {
-        document.getElementById('password_error').innerHTML = 'Password must be 8 letters long and include lowercase letters, uppercase, digits and special characters!'
+        document.getElementById('password_error').innerHTML = 'Password must be 8 characters long and include lowercase letters, uppercase, digits and special characters!'
         document.getElementById('password').classList.add('error')
     } else {
      document.getElementById('password_error').innerHTML = ''
