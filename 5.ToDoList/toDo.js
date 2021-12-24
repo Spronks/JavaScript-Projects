@@ -1,18 +1,20 @@
 document.getElementById('btnAdd').addEventListener('click', addToList)
 function addToList() {
     const input = document.getElementById('input').value 
-    const toDoDiv = document.getElementById('toDoList')
-    const newToDoItem = document.createElement('div')
-    const toDoName = document.createElement('li')
-    toDoName.innerHTML = input
-    const deleteBtn = document.createElement('i')
-    deleteBtn.classList.add('fa')
-    deleteBtn.classList.add('fa-trash-o')
-
-    newToDoItem.appendChild(toDoName)
-    newToDoItem.appendChild(deleteBtn)
-
-    toDoDiv.appendChild(newToDoItem)
+    if (input){
+        const toDoDiv = document.getElementById('toDoList')
+        const newToDoItem = document.createElement('div')
+        const toDoName = document.createElement('li')
+        toDoName.innerHTML = input
+        const deleteBtn = document.createElement('i')
+        deleteBtn.classList.add('fa')
+        deleteBtn.classList.add('fa-trash-o')
+    
+        newToDoItem.appendChild(toDoName)
+        newToDoItem.appendChild(deleteBtn)
+    
+        toDoDiv.appendChild(newToDoItem)
+    }
 }
 
 const toDoDiv = document.getElementById('toDoList')
