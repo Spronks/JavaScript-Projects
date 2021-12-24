@@ -15,3 +15,6 @@ Username must be 8 letters long, email address should be in a valid form and pas
 
 # Day 4 - Navigation Bar
 A hamburger icon thats toggles on and off a navbar.
+
+# Day 5 - ToDo List
+A ToDo list in which we can add and remove items.
