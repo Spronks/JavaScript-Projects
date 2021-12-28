@@ -21,3 +21,7 @@ A ToDo list in which we can add and remove items.
 
 # Day 6 - Quiz
 A Quiz which we answer multiple choice questions and we get our score at the end.
+
+# Day 7 - Covid Stats
+A table with data related to covid-19 categorized by country. The data was fetched from the API:
+https://api.covid19api.com/
