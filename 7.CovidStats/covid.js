@@ -1,51 +1,25 @@
-const URL = 'https://api.covid19api.com/summary'
+$.ajax({
 
-fetch(URL)
-    .then(response => response.json())
-    // .then(data => console.log(data, data.Countries))
-    .then(data => {
-        document.getElementById('date').innerHTML = data.Date.slice(0,10)
-        const countries = data.Countries
-        const table = document.getElementById('newRows')
-        const headerRow = document.createElement('tr')
-        table.appendChild(headerRow)
-        const countryTh = document.createElement('th')
-        countryTh.innerHTML = 'Country'
-        headerRow.appendChild(countryTh)
-        const confirmedTh = document.createElement('th')
-        confirmedTh.innerHTML = 'Confirmed'
-        headerRow.appendChild(confirmedTh)
-        const activeTh = document.createElement('th')
-        activeTh.innerHTML = 'Active'
-        headerRow.appendChild(activeTh)
-        const recoveredTh = document.createElement('th')
-        recoveredTh.innerHTML = "Recovered"
-        headerRow.appendChild(recoveredTh)
-        const deathsTh = document.createElement('th')
-        deathsTh.innerHTML = 'Deaths'
-        headerRow.appendChild(deathsTh)
-        for (let country of countries) {
-            const newRow = document.createElement('tr')
-            table.appendChild(newRow)
-            const countryTd = document.createElement('td')
-            countryTd.innerHTML = country.Country
-            newRow.appendChild(countryTd)
-            const confirmedTd = document.createElement('td')
-            confirmedTd.innerHTML = country.TotalConfirmed
-            newRow.appendChild(confirmedTd)
-            const activeTd = document.createElement('td')
-            activeTd.innerHTML = country.NewRecovered
-            newRow.appendChild(activeTd)
-            const recoveredTd = document.createElement('td')
-            recoveredTd.innerHTML = country.TotalRecovered
-            newRow.appendChild(recoveredTd)
-            const deathsTd = document.createElement('td')
-            deathsTd.innerHTML = country.TotalDeaths
-            newRow.appendChild(deathsTd)
+    type: 'get',
+    url: 'https://api.covid19api.com/summary',
+    success: function(response) {
+        // console.log(response.Countries)
+        document.getElementById('date').innerHTML = response.Date.slice(0,10)
 
+        for (let i = 0; i < response.Countries.length; i++) {
+            let totalActive = response.Countries[i].TotalConfirmed - response.Countries[i].TotalRecovered
+            let tableRow = `<tr> <td>${response.Countries[i].Country}</td> <td>${response.Countries[i].TotalConfirmed}</td> <td>${totalActive}</td><td>${response.Countries[i].TotalRecovered}</td><td>${response.Countries[i].TotalDeaths}</td></tr>`
+       
+
+            $('#tbody').append(tableRow)
         }
-        document.getElementById('countries').innerHTML = 'peort'
-    })
 
+        $('#covidTable').DataTable()
+        
+    },
+    error: function(error) {
+    console.log(error)
+    }
+})
 
     
