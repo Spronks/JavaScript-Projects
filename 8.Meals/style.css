@@ -7,19 +7,15 @@
 h2 {
     display: inline;
     padding: 20px;
-
 }
 
 ul {
     display: inline;
-
 }
 
 li {
     display: inline;
     padding: 20px;
-
-
 }
 
 .navbar {
@@ -55,8 +51,7 @@ img {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 50px 0;
     background: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 
 body {

@@ -25,3 +25,7 @@ A Quiz which we answer multiple choice questions and we get our score at the end
 # Day 7 - Covid Stats
 A table with data related to covid-19 categorized by country. The data was fetched from the API:
 https://api.covid19api.com/
+
+# Day 8 - Meals
+A collection of cards with names of meals and photos. The data was fetched from the Free Meal API: 
+https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
