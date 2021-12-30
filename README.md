@@ -31,6 +31,6 @@ A collection of cards with names of meals and photos. The data was fetched from 
 https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
 
 # Day 9 - Animations
-Experimenting with 2 Javascript libraries used for animations:
+Experimenting with 2 Javascript libraries used for animations:\
 typed.js - https://github.com/mattboldt/typed.js/ (animating text)\
 aos - https://michalsnik.github.io/aos/ (animating images)
