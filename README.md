@@ -1,7 +1,7 @@
 # JavaScript-Projects
 
-* I'll be working on a series of projects in JavaScript to solidify my learning and practice my skills...
-* At the same time I want to become more familiar with the workflow of Git and Github...
+* ##I'll be working on a series of projects in JavaScript to solidify my learning and practice my skills...
+* ##At the same time I want to become more familiar with the workflow of Git and Github...
 
 # Day 1 - Counter
 A simple counter, with 3 buttons to increment, decrement and reset to 0. 
@@ -32,5 +32,5 @@ https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
 
 # Day 9 - Animations
 Experimenting with 2 Javascript libraries used for animations:
-* typed.js - https://github.com/mattboldt/typed.js/ (animating text)
-* aos - https://michalsnik.github.io/aos/ (animating images)
+* ###typed.js - https://github.com/mattboldt/typed.js/ (animating text)
+* ###aos - https://michalsnik.github.io/aos/ (animating images)
