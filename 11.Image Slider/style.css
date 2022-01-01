@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color:peru;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper {
+    max-width:1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 578px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    padding: 10px;
+    border-radius:30px;
+    font-weight: bolder;
+    background-color: peru;
+}
+
+.btn2 {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    padding: 10px;
+    border-radius:30px;
+    font-weight: bolder;
+    background-color: peru;
+}
