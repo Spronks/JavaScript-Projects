@@ -37,3 +37,6 @@ Experimenting with 2 Javascript libraries used for animations:
 
 # Day 10 - Digital Clock
 A simple digital clock.
+
+# Day 11 - Image Slider
+A simple image slider.
