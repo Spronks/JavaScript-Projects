@@ -40,3 +40,4 @@ A simple digital clock.
 
 # Day 11 - Image Slider
 A simple image slider.
+v2 - a more advanced image slider. It can slide the images with animation and it will track the current image which you can see via dots on the bottom. Based on: https://dev.to/j471n/image-slider-with-vanila-js-22bf
