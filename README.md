@@ -54,3 +54,8 @@ A simple digital clock.
 
 A simple image slider.
 v2 - a more advanced image slider. It can slide the images with animation and it will track the current image which you can see via dots on the bottom. Based on: https://dev.to/j471n/image-slider-with-vanila-js-22bf
+
+# Day 12 - Dog Viewer
+
+The user selects a dog breed from a dropdown menu and a random image is displayed. The data was fetched from the Dog CEO API:
+https://dog.ceo/api/breeds/list/all

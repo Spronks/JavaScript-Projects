@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 20vh;
+  background: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.dog-breeds {
+  padding: 0.5rem 1rem;
+}
+
+.main-page {
+  height: 80vh;
+  background: white;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 7.5rem;
+  display: block;
+}
+
+.hide-emoji {
+  visibility: hidden;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+.dog-img {
+  max-width: 40rem;
+  max-height: 40rem;
+  display: block;
+}
