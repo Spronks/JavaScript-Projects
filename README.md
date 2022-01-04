@@ -59,3 +59,7 @@ v2 - a more advanced image slider. It can slide the images with animation and it
 
 The user selects a dog breed from a dropdown menu and a random image is displayed. The data was fetched from the Dog CEO API:
 https://dog.ceo/api/breeds/list/all
+
+# Day 13 - Movie Seat Booking
+
+Display movie choices and seats in a theater to select from in order to purchase tickets. Seats, movie and price are saved to local storage so that UI is still populated on refresh.
