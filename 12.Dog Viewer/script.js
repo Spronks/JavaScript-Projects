@@ -34,6 +34,7 @@ fetch(RANDOM_DOG_IMG_URL)
 const section = document.querySelector('.main-page')
 
 select.addEventListener('change', function(e) {
+    img.className = 'hide-dog';
     emoji.classList.remove('hide-emoji')
     fetch(`https://dog.ceo/api/breed/${e.target.value}/images/random`)
         .then(response => response.json()) 
@@ -41,7 +42,9 @@ select.addEventListener('change', function(e) {
             url = data.message
             img.src = url
         })  
-        .then(img.addEventListener('load', () => emoji.classList.add('hide-emoji')))
+        .then(img.addEventListener('load', () => {
+            img.className = 'dog-img'
+            emoji.classList.add('hide-emoji')}))
 })
 
 

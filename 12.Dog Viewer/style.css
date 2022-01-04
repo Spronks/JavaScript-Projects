@@ -52,3 +52,7 @@
   max-height: 40rem;
   display: block;
 }
+
+.hide-dog {
+  display: none;
+}
