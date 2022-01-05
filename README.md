@@ -63,3 +63,7 @@ https://dog.ceo/api/breeds/list/all
 # Day 13 - Movie Seat Booking
 
 Display movie choices and seats in a theater to select from in order to purchase tickets. Seats, movie and price are saved to local storage so that UI is still populated on refresh.
+
+# Day 14 - Custom Video Player
+
+Custom video player using the HTML5 video element and it's JavaScript API with a custom design.
