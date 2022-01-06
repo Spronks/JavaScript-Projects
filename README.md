@@ -67,3 +67,8 @@ Display movie choices and seats in a theater to select from in order to purchase
 # Day 14 - Custom Video Player
 
 Custom video player using the HTML5 video element and it's JavaScript API with a custom design.
+
+# Day 15 - Exchange Rate Calculator
+
+Select countries to get the exchange rate for a specific amount. The exchange rates were fetched from the API:
+https://www.exchangerate-api.com/
