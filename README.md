@@ -72,3 +72,7 @@ Custom video player using the HTML5 video element and it's JavaScript API with a
 
 Select countries to get the exchange rate for a specific amount. The exchange rates were fetched from the API:
 https://www.exchangerate-api.com/
+
+# Day 16 - DOM Array Methods
+
+A fun project to practice high order array methods and DOM manipulation.
