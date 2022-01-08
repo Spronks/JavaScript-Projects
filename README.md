@@ -76,3 +76,7 @@ https://www.exchangerate-api.com/
 # Day 16 - DOM Array Methods
 
 A fun project to practice high order array methods and DOM manipulation.
+
+# Day 17 - Portfolio
+
+A portfolio page.
