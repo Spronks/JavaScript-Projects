@@ -80,3 +80,7 @@ A fun project to practice high order array methods and DOM manipulation.
 # Day 17 - Portfolio
 
 A portfolio page.
+
+# Day 18 - Menu Slider and Modal
+
+Simple landing page with sliding menu and modal.
