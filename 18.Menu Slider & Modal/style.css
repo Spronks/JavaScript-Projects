@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  text-align: center;
+  /* border: 2px solid transparent; */
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.btn-hambur {
+  padding: 10px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  margin: 0%;
+}
+
+.btn-signUp {
+  padding: 5px 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  padding: 25px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.benefits {
+  margin: 0 0 20px 40px;
+}
