@@ -84,3 +84,7 @@ A portfolio page.
 # Day 18 - Menu Slider and Modal
 
 Simple landing page with sliding menu and modal.
+
+# Day 19 - Hangman Game
+
+Select a letter to figure out a hidden word in a set amount of chances.
