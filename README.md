@@ -38,6 +38,7 @@ https://api.covid19api.com/
 
 A collection of cards with names of meals and photos. The data was fetched from the Free Meal API:
 https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
+v2 - Search and generate random meals from the www.themealdb.com API
 
 # Day 9 - Animations
 
