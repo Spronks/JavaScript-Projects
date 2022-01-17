@@ -101,8 +101,3 @@ Build A Restful Api With Node.js Express & MongoDB.
 # 22 - Restful API v2
 
 Build A Restful Api With Node.js & Express.
-
-# 23 - Memories
-
-A full-stack social media web app called "Memories" that allows users to post interesting events that happened in their lives.
-We are building it using the MERN stack(MongoDB, Express.js, React.js and Node.js).
